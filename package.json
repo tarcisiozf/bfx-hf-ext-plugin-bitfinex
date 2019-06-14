@@ -1,0 +1,18 @@
+{
+  "name": "bfx-hf-ext-plugin-bitfinex",
+  "version": "0.0.1",
+  "description": "Bitfinex exchange plugin for the Honey Framework",
+  "license": "Apache-2.0",
+  "contributors": [
+    "Cris Mihalache <me@f3rno.com>"
+  ],
+  "dependencies": {
+    "bfx-api-node-rest": "^1.1.1",
+    "bfx-hf-models": "^1.0.2",
+    "bluebird": "^3.5.5",
+    "debug": "^4.1.1",
+    "lodash": "^4.17.11",
+    "p-iteration": "^1.1.8",
+    "promise-throttle": "^1.0.0"
+  }
+}
