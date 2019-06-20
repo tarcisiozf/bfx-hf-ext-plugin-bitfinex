@@ -6,7 +6,6 @@ const auditCandleGaps = require('./lib/models/candle/audit_gaps')
 module.exports = {
   schema: {
     Trade: {
-      schema: null, // use default
       schemaExchangeData: {
         id: Number,
       },
@@ -17,7 +16,6 @@ module.exports = {
     },
 
     Candle: {
-      schema: null, // use default
       schemaExchangeData: {
         type: String,
       },
