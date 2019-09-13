@@ -1,0 +1,14 @@
+# 1.0.0
+- manifest: bump deps
+- meta: add github issue/pr templates
+- meta: standardize travis config
+- meta: add placeholder npm test
+- meta: add example
+- meta: add readme
+
+# 0.1.0
+- feature: add algo order adapter
+- refactor: remove send & sendWithConnection methods
+
+# 0.0.2
+- initial version
