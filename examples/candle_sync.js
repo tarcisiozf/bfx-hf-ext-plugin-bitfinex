@@ -33,10 +33,10 @@ const run = async () => {
     exchange: 'bitfinex',
     type: 'trade',
     symbol: SYMBOL,
-    tf: TIME_FRAME,
+    tf: TIME_FRAME
   }, {
     start: START_MTS,
-    end: END_MTS,
+    end: END_MTS
   })
 
   debug('sync complete')
