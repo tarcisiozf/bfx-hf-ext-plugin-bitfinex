@@ -5,7 +5,28 @@
   "license": "Apache-2.0",
   "author": "Bitfinex",
   "contributors": [
-    "Cris Mihalache <me@f3rno.com>"
+    "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
+    "Paolo Ardoino <paolo@bitfinex.com> (https://www.bitfinex.com)",
+    "Jacob Plaster <jacob.plaster@bitfinex.com> (https://www.bitfinex.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfinexcom/bfx-hf-ext-plugin-bitfinex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/bfx-hf-ext-plugin-bitfinex/issues"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "NODE_ENV=test istanbul cover _mocha -- -R spec -b --recursive",
+    "test-without-coverage": "NODE_ENV=test mocha -R spec -b --recursive"
+  },
+  "keywords": [
+    "honey framework",
+    "bitfinex",
+    "bitcoin",
+    "BTC"
   ],
   "dependencies": {
     "bfx-api-node-plugin-managed-candles": "^1.0.0",
