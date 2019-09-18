@@ -5,6 +5,7 @@
 - meta: add placeholder npm test
 - meta: add example
 - meta: add readme
+- feature: add static getTimeFrames() to ao adapter
 
 # 0.1.0
 - feature: add algo order adapter
