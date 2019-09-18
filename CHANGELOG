@@ -6,6 +6,7 @@
 - meta: add example
 - meta: add readme
 - feature: add static getTimeFrames() to ao adapter
+- fix: ws2 manager auth event names on binding event listeners
 
 # 0.1.0
 - feature: add algo order adapter
