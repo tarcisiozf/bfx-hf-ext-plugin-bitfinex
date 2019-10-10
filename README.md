@@ -18,7 +18,7 @@ npm i --save bfx-hf-ext-plugin-bitfinex
 
 ### Docs
 
-For executable examples, refer to `examples/`
+For executable examples, [refer to `examples/`](/examples)
 
 ### Examples
 Using the DB schema
