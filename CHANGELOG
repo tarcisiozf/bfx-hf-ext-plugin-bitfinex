@@ -1,3 +1,6 @@
+# 1.0.2
+- refactor: use bulkUpsert() if available when saving candles
+
 # 1.0.1
 - docs: create/update
 
