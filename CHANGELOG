@@ -1,3 +1,6 @@
+# 1.0.3
+- feature: add reconnect method to AO adapter
+
 # 1.0.2
 - refactor: use bulkUpsert() if available when saving candles
 
