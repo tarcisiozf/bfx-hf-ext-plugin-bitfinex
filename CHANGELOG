@@ -1,3 +1,6 @@
+# 1.0.5
+- feature: add updateAuthArgs() to AOAdapter
+
 # 1.0.4
 - fix: restart HB interval when reconnecting
 - feature: support affiliate codes
