@@ -1,3 +1,6 @@
+# 1.0.6
+- fix: cleanup timeouts on AOAdapter disconnect()
+
 # 1.0.5
 - feature: add updateAuthArgs() to AOAdapter
 
