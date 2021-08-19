@@ -35,7 +35,7 @@
     "bfx-api-node-plugin-managed-ob": "^1.0.3",
     "bfx-api-node-plugin-wd": "^1.0.0",
     "bfx-api-node-rest": "^4.1.2",
-    "bfx-hf-models": "github:bitfinexcom/bfx-hf-models#v2.3.3",
+    "bfx-hf-models": "git+https://github.com/bitfinexcom/bfx-hf-models.git#v2.4.0",
     "bfx-hf-util": "github:bitfinexcom/bfx-hf-util#v1.0.12",
     "bluebird": "^3.5.5",
     "debug": "^4.1.1",
